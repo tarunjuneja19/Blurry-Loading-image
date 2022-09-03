@@ -13,3 +13,18 @@ body {
   overflow: hidden;
   margin: 0;
 }
+.bg {
+  background: url("https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80")
+    no-repeat center center/cover;
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  filter: blur(60px);
+}
+.loading-text {
+  font-size: 50px;
+  color: #fff;
+}
